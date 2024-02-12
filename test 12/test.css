@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.div2{
+    width: 250px;
+    height: 100px;
+    /* background-color: gray; */
+}
+
+.left{
+    margin-left: 40px;
+}
+.flex{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+.right{
+    /* background-color: gray; */
+    margin-left: 200px;
+}
+.div6{
+    background-color: rgb(6, 6, 68);
+    padding: 10px;
+    width: 90vw;
+    margin-left: 20px;
+}
