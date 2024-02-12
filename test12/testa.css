@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font-family: "Parisienne", cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+}
+
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+
+}
+.div2{
+    margin-left: 750px;
+    
+}
+li{
+    padding: 10px;
+}
+nav{
+    background-image: url(sahithi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.boy{
+    width: 280px;
+    height: 280px;
+    background-color: gray;
+    background-image: url(bitmoji.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 200px;
+    margin-left: 700px;
+
+    
+}
+.boxandboy{
+    display: flex;
+}
+.div3{
+    
+    height: 200PX;
+    width: 350px;
+    /* background-color: gray;
+     */
+}
+h1{
+    font-size: 40px;
+}
+button{
+    margin-left: 30px;
+    padding: 10px 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
