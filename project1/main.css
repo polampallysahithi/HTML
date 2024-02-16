@@ -1,0 +1,145 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Tangerine:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    display: flex;
+    padding-left: 20px;
+    background-color: plum;
+   
+    
+} 
+
+nav{
+    background-image: url(christianbackground.avif);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+a{
+    color: rgb(91, 87, 87);
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 100px;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+
+li{
+    padding: 10px;
+    font-family:'Poppins', sans-serif;
+}
+
+.logo{
+    display: flex;
+    padding-left: 30px;
+    border-color: white;
+}
+
+.button1{
+    width: 110px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family:'Poppins', sans-serif;
+    border-color: plum;
+   
+}
+.button2{
+    width: 110px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family:'Poppins', sans-serif;
+    border-color: plum;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+}
+.side{
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 1px gray;
+    margin-left: 450px;
+    margin-top: 30px;
+    border-top: 100px;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+
+
+}
+
+h2{
+    padding-top:15px;
+    color:rgb(197, 104, 197)
+}
+p{
+    color: rgb(91, 87, 87);
+}
+.form{
+    text-align: left;
+    margin-left: 15px;
+    margin: 20px;
+}
+.select1{
+    width: 435px;
+    padding: 10px;
+}
+option{
+    padding: 50px;
+}
+.select2{
+    width: 210px;
+    padding: 10px;
+    height: 10;
+}
+.input1,.label1{
+    width: 185px;
+    padding: 10px;
+    height: 10;
+    color: rgb(91, 87, 87);
+}
+ .input2,.label2{
+    width: 410px;
+    padding: 10px;
+} 
+
+tr,td{
+    padding: 5px;
+    padding-left: 3px;
+}
+ .quote{
+    
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 250px;
+    font-family:'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 50px;
+    line-height: 60px;
+    text-align: left;    
+    color:rgb(131, 37, 131)
+} 
+
+.createaccount{
+    padding: 10px;
+    width: 435px;
+    font-size: 15px;
+    color: white;
+    background-image: linear-gradient(rgb(195, 19, 195),rgba(189, 152, 158, 0.566));
+    border-radius: 5px;
+    border-color: plum;
+}
