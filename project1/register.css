@@ -1,0 +1,124 @@
+ @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.head1{
+  display: flex;
+  padding-left: 20px;
+  background-color:rgb(255, 197, 197);
+  width: 97.6vw;
+
+} 
+
+.logo{
+  display: flex;
+  padding-left: 30px;
+  border-color: white;
+}
+
+.button1{
+  width: 110px;
+  padding: 5px;
+  border-radius: 5px;
+  font-family:'Poppins', sans-serif;
+  border-color: rgb(255, 197, 197);
+ 
+}
+.button2{
+  width: 110px;
+  padding: 5px;
+  border-radius: 5px;
+  font-family:'Poppins', sans-serif;
+  border-color: rgb(255, 197, 197);
+} 
+.login{
+    display: flex;
+    align-items: center;
+}
+.register{
+  background-image: url(christianbackground.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+
+
+.logo{
+  display: flex;
+  padding-left: 30px;
+  border-color: white;
+}
+
+.login{
+  display: flex;
+  align-items: center;
+}
+.side{
+  width: 500px;
+  height: 700px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 1px gray;
+  margin-left: 450px;
+  border-top: 100px;
+  text-align: center;
+  font-family:'Poppins', sans-serif;
+
+
+}
+
+.form{
+  text-align: left;
+  margin-left: 15px;
+  margin: 20px;
+  ;
+}
+.select1{
+  width: 435px;
+  padding: 10px;
+}
+option{
+  padding: 50px;
+}
+.select2{
+  width: 210px;
+  padding: 10px;
+  height: 10;
+}
+.input1,.label1{
+  width: 185px;
+  padding: 10px;
+  height: 10;
+  color: rgb(91, 87, 87);
+}
+.input2,.label2{
+  width: 410px;
+  padding: 10px;
+} 
+
+/* tr,td{
+  padding: 5px;
+  padding-left: 3px;
+} */
+
+
+.createaccount{
+  padding: 10px;
+  width: 435px;
+  font-size: 15px;
+  color: white;
+  background-image: linear-gradient(rgb(195, 19, 195),rgba(189, 152, 158, 0.566));
+  border-radius: 5px;
+  border-color: plum;
+}
