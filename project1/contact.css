@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font-family: "Parisienne", cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+}
+.head1{
+    display: flex;
+    padding-left: 20px;
+    background-color:plum;
+    width: 97.6vw;
+
+  } 
+  
+
+  a{
+    color: rgb(91, 87, 87);
+    text-decoration: none;
+  }
+  
+  
+  
+  .logo{
+    display: flex;
+    padding-left: 30px;
+    border-color: white;
+  }
+  
+  .button1{
+    width: 110px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family:'Poppins', sans-serif;
+    border-color: plum;
+   
+  }
+  .button2{
+    width: 110px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family:'Poppins', sans-serif;
+    border-color: plum;
+  }
+  .login{
+      display: flex;
+      align-items: center;
+  }
+  /* loginnnn */
+  .loginbox2{
+    height:730px;
+    width: 100%;
+}
+.forma{
+    background-color: white;
+    height: 450px;
+    width: 30%;
+    margin-top:5%;
+    margin-bottom: 20%  ;
+    
+}
+.inputa,.inputb{
+    width:75%;
+    padding: 7px;
+    border-radius: 6px;
+    border-color: white;
+}
+pre{
+    font-family: 'Times New Roman',Times, serif;
+}
+
+
+
+
+.main1{
+    display: flex;
+    /* height: 500px; */
+}
+.img7{
+    width: 80px;
+    height: 90px;
+    margin-top: 10px;
+}
+.div13{
+    margin-top: 40px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    
+    
+
+}
+.div14{
+    height: 100px;
+    width: 950px;
+    text-align: center;
+    margin-left: 250px;
+}
+.div12{
+    height: 50px;
+    margin-left: 500px;
+}
+
+.section3{
+    background-image: linear-gradient(rgba(187, 63, 63, 0.834),rgba(223, 126, 188, 0.796));
+    height: 700px;
+    
+    
+}
+
+
+.section4{
+    margin-left: 70px;
+}
+.section5,.section6,.section7{
+    display: flex;
+    margin-left: 70px;
+}
+ 
+
+
