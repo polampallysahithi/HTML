@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    font-family:'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10vw 0px 10vw;
+    background-color: #1F4788;
+    color: white;
+    height: 15vh;
+}
+.p1,.p2{
+    margin: 0px;
+}
+.p1{
+    font-size:20px;
+    font-weight: 600;
+}
+.b1,.b2{
+    padding: 12px 25px 12px 25px;
+    border-radius: 30px;
+    border: none;
+    font-size: medium;
+    margin: 5px;
+    
+
+}
+.b1{
+    background-color: #59ABE3;
+    color: white;
+    
+}
+.b1:hover,.b2:hover{
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+    box-shadow: 3px 0px 2px 2px gray;
+}
+@media (min-width:450px) and (max-width:900px) {
+    
+    nav{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        height: 32vh;
+        
+    }
+    .div1,.div2{
+        text-align: center;
+        padding: 15px;
+    }
+    
+    
+    
+}
+@media (min-width:200px) and (max-width:450px) {
+    nav{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+    }
+    .div1,.div2{
+        text-align: center;
+        padding: 15px;
+    }
+    
+    
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="div1">
+            <p class="p1">Attend placemnet drives with us</p>
+            <p class="p2">Enrol for fullstack with pay after placement</p>
+        </div>
+        <div class="div1">
+            <button class="b1">
+                Apply now
+            </button>
+            <button class="b2">
+                Learn more
+            </button>
+        </div>
+    </nav>
+</body>
+</html>
