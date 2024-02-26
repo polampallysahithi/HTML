@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Poppins', sans-serif;
+}
+header,.div1,.sec1{
+    display: flex;
+}
+.program{
+    margin-left: 80px;
+    margin-right: 100px;
+    width: 90%;
+    /* background-color: aqua; */
+    
+}
+.bg{
+    background-image: url(bgpurple2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+header{
+    padding-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.H2{
+    font-size: 30px;
+    color: rgb(6, 6, 96);
+
+}
+.H1{
+    font-size: 35px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+    font-weight: bold;
+}
+.p1{
+    justify-self: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: white;
+}
+.div1,.div2,.div3{
+    padding: 50px;
+    /* background-color: blue; */
+}
+
+.sec1{
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.form{
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    margin-right: 50px;
+  
+
+}
+input{
+    padding: 10px;
+    border-radius: 15px;
+    width: 300px;
+    border: 1px solid rgb(184, 177, 177);
+    
+}
+.b1{
+    padding: 20px 40px 20px 40px;
+    border-radius: 40px;
+    font-size: 15px;
+    background-color: rgb(255, 106, 0);
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+.b2{
+    padding: 10px 20px 10px 20px;
+    border-radius:20px;
+    background-color:rgb(255, 106, 0);
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+.p2{
+    font-size: 55px;
+    font-weight: bolder;
+    color: white;
+    /* background-color: brown; */
+    
+}
+.p3{
+    font-size: 35px;
+    color: white;
+}
+@media (min-width:280px) and (max-width:450px) {
+
+    .program{
+        margin-left: 50px;
+    }
+    .sec1{
+        flex-direction: column;
+    }
+    .bg{
+        height: 180vh;
+        width: 200vw;
+    }
+    .p2{
+    text-align: center;
+    font-size: 40px;
+
+    }
+    .p3{
+        text-align: center;
+        font-size: 35px;
+    }
+    .form{
+        width: 450px;
+        padding: 20px;
+    }
+    input{
+        width: 380px;
+    }.H2{
+        font-size: 45px;
+
+    }
+    .b2,input{
+        font-size: 20px;
+        
+    }
+    .H1{
+        font-size: 40px;
+    }
+    .p1{
+        font-size: 20px;
+    }
+    .formtext{
+        padding: 20px;
+    }
+    .div3{
+        padding: 0px;
+    }
+
+}
+
+@media (min-width:450px) and (max-width:750px) {
+    .sec1{
+        flex-direction: column;
+    }
+    .p2{
+        text-align: center;
+        font-size: 70px;
+    
+        }
+        .p3{
+            text-align: center;
+            font-size: 55px;
+        }
+    .bg{
+        height: 230vh;
+        width: 200vw;
+    }
+    .div3{
+        padding: 0px;
+    }
+    .form{
+        width: 780px;
+    }
+    input{
+        width: 760px;
+    }
+    .H2{
+        font-size: 60px;
+
+    }
+    .b2,input{
+        font-size: 30px;
+        
+    }
+    .H1{
+        font-size: 50px;
+    }
+    .p1{
+        font-size: 25px;
+    }
+    .b1{
+        font-size: 25px;
+    }
+}
+@media (min-width:750px) and (max-width:1200px) {
+    .bg{
+        height: 110vh;
+        
+    }
+    .program{
+        margin-left: 0px;
+        margin-right: 0px;
+        width:100%;
+        
+        /* background-color: aqua; */
+        
+    }
+    .div3{
+        padding: 0px;
+        padding-left:50px;
+        
+    }
+    .p2{
+        font-size: 35px;
+        font-weight: bolder;
+        color: white;
+        /* background-color: brown; */
+        
+    }
+    .p3{
+        font-size: 25px;
+        color: white;
+    }
+    
+}
